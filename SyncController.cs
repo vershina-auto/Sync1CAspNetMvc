@@ -93,7 +93,7 @@ namespace Sync1CAspNetMvc.Controllers
                 // Если загрузка файла
                 if (mode == ModeUploadFile) return UploadFile(filename);
 
-                // Если загрузка файла
+                // Если импорт
                 if (mode == ModeImport) return MoveUploadFile(filename);
             }
 
